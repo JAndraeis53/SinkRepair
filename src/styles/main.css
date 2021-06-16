@@ -20,3 +20,10 @@ h1,h2,h3,h4,h5,h6 {
 	letter-spacing: 3px;
 }
 
+#submitRequest {
+    margin: 1rem 0 2rem 2rem;
+    padding: 0.5rem;
+    background-color: rgb(71, 42, 53);
+    color: rgb(220, 248, 255);
+    font-size: 1rem;
+}
