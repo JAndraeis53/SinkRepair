@@ -1,5 +1,5 @@
 const applicationState = {
-    requests = []
+    requests: []
 
 }
 
@@ -17,6 +17,6 @@ export const fetchRequests = () => {
 }
 
 
-export const getRequest = () => {
-    return applicationState.requests.map(request ({...request}))
+export const getRequests = () => {
+    return applicationState.requests.map(request => ({...request}))
 }

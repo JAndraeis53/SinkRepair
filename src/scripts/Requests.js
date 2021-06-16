@@ -6,7 +6,11 @@ export const Requests = () => {
     let html = `
         <ul>
             ${
-                requests.map()
+                requests.map(request => {
+                    return `<li>
+                            <input value=${request.id}" /> ${request.description}
+                            </li>`
+                }).join("")
             }
         </ul>
     `
