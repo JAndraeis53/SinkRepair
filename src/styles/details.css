@@ -1,0 +1,10 @@
+.field {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start
+}
+
+.input {
+    margin: 2em 1em;
+    width: 35%;
+}
